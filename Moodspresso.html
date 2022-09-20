@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        margin:0;
+        box-sizing: border-box;
+
+    }
+
+    a{
+      color: #000000;
+      text-decoration: none;
+    }
+    /*.bg {
+        background-image: url("bg.jpg");
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: 38rem;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        top: 190px;
+    }*/
+
+    h1{
+        padding-left:180px;
+        padding-top: 50px;
+        font-size: 35px;
+        font-family: 'Inter';
+        color:#9E907F;
+    }
+
+    .navbar {
+      width: 100%;
+      height: 50px;
+      left: 0px;
+      top: 0px;
+
+      background-color: #C2B19C;
+      overflow: hidden;
+      position: sticky;
+      position: -webkit-sticky;
+
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      color: #5B4F47;
+      text-align: center;
+      padding: 16px 13px;
+      text-decoration: none;
+    }
+    
+    
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+    
+    .navbar a:hover {
+      background-color: #9E907F;
+      color: black;
+    }
+    
+    /* Active/current link */
+    .navbar a.active {
+      background-color: #9E907F;
+      color: #5B4F47;
+    }
+    
+    .Shop_Img{
+        position: relative;
+        width: 100%;
+        height: 586px;
+        top: 1880px;
+        background: url(image7.jpg);
+    }     
+
+    .Rectangle{
+        position: absolute;
+        width: 50%;
+        height: 250px;
+        left: 360px;
+        top: 175px;
+        background: rgba(255, 255, 255, 0.668);
+    }
+
+    .txt_title{
+        position: absolute;
+        height: 10px;
+        left: 190px;
+        top: 30px;
+
+        font-family: 'Chenla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 55px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .button {
+        background-color: #9E907F; 
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+
+    .footer {
+      position: relative;
+      height: 350px;
+      top:2300px;
+      padding: 3rem;
+      text-align: left;
+      background: #F0F0F0;
+    }
+    
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 20px;
+        height: 165px; 
+    }
+
+    .column1{
+      float: left;
+      width: 25%;
+      padding:0.5rem;
+      text-align:center;
+      color:#262626;
+    }
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    dl{
+      color:#262626;
+      text-align:left;
+      font-size: 19px;
+      font-family: Tahoma;
+    }
+
+
+</style>
+<body>
+
+    <div>
+        
+        <div class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Coffee_House.html">Coffee House</a>
+            <a href="Delivery.html">Delivery</a>
+            <a href="About_Us.html">About Us</a>
+            <a href="Developers.html">Developers</a>
+            
+        </div>
+        <div>
+            <img src="logo.png" style="
+            width:124px;
+            height:109px;
+            position: absolute;
+            left: 14px;
+            top: 65px;
+            border-radius: 46px;
+            float:left;">
+            <h1>MOODSPRESSO</h1>
+        </div>
+    </div>
+    <div>
+        <img src="image1.png" style="opacity: 0.9;
+        position: absolute;
+        width: 100%;
+        height: 650px;
+        top: 190px;">
+        <img src="image5.jpg" style="
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        top: 840px;"> 
+        <img src="image6.jpg" style="
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        top: 1420px;">
+    </div>
+
+    <div class="Shop_Img">
+        <div class="Rectangle">
+            <div class="txt_title">
+                <p>GET YOUR FAVOURITES<br>#MOODSPRESSOONAMAZON</p>
+                <button class="button" onclick="location.href='https://amazon.in'">
+                    SHOP NOW
+                    
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <img src="image8.jpg" style="
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        top: 2600px;">
+    </div>
+
+    <div class="footer">
+        <a href="https://www.facebook.com/"><img src="facebook.png" width="50" height="50">&nbsp&nbsp&nbsp
+        <a href="https://www.instagram.com/"><img src="instagram.png" width="50" height="50">&nbsp&nbsp&nbsp
+        <a href="https://www.twitter.com/"><img src="twitter.png" width="50" height="50">
+
+        <div class="row">
+          
+          </a>
+          <div class="column" style="background-color:#F0F0F0;">
+            <h2 style="color:#262626"><br><a href="About_Us.html#aboutus">About Us</a></h2>
+            <dl>
+              <dt><a href="About_Us.html#heritage">Our heritage</a></dt>
+              <dt><a href="About_Us.html#company">Our Company</a></dt>
+            </dl>
+          </div>
+          <div class="column" style="background-color:#F0F0F0;">
+            <h2 style="color:#262626"><br><a href="https://www.starbucks.in/card/rewards/customer-service.html">Customer Service</a></h2>
+            <dl>
+              <dt><a href="https://www.starbucks.in/customer-service/frequently-asked-questions.html">Frequently asked questions</a></dt>
+            </dl>
+          </div>
+        </div>
+
+      <div>
+        <p>Web Accessiblity  |  Privacy Statement  |  Terms of Use  |  Site Map  |  Contact Us  |  <br>© 2022 Moodspresso Coffee Company. All rights reserved.</p>
+      </div>
+    </div>
+    
+    
+      
+</body>
+</html>
